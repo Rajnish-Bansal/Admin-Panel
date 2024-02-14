@@ -12,19 +12,19 @@ import List from "./components/List";
 import Login from "./components/Login";
 
 function App() {
-  const [transactions, setTransactions] = useState(getStoredValue());
+  const [transactions, setTransactions] = useState([]);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-  useEffect(() => {
-    localStorage.setItem("transactions", JSON.stringify(transactions));
-  }, [transactions]);
+  // useEffect(() => {
+  //   localStorage.setItem("transactions", JSON.stringify(transactions));
+  // }, [transactions]);
 
-  function getStoredValue() {
-    const getValue = JSON.parse(localStorage.getItem("transactions"));
-    if (getValue) {
-      return getValue;
-    }
-  }
+  // function getStoredValue() {
+  //   const getValue = JSON.parse(localStorage.getItem("transactions"));
+  //   if (getValue) {
+  //     return getValue;
+  //   }
+  // }
 
   return (
     <Router>
