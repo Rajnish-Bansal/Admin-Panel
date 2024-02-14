@@ -1,0 +1,44 @@
+.input-div {
+  outline: auto;
+  height: 50%;
+  width: 18%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 3%;
+  border-radius: 10%;
+}
+
+.add-button{
+  /* outline: auto; */
+  width: 40%;
+  height: 10%;
+  margin-left: 30% ;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.input-div-heading{
+  /* outline: auto; */
+  text-align: center;
+  margin-top: -10%;
+}
+
+.input-heading{
+  /* outline: auto; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-options{
+  /* outline: auto; */
+  width: 50%;
+  margin-right: 12%;
+}
+
+.quantity-options{
+  /* outline: auto; */
+  width: 15%;
+  margin-right: 46%;
+}

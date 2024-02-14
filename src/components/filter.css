@@ -1,0 +1,52 @@
+.filter-div {
+  outline: auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: aqua;
+}
+
+.search-div {
+  /* outline: auto; */
+  height: 100%;
+  width: 70%;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.search-bar {
+  /* outline: auto; */
+  width: 80%;
+}
+
+select {
+  /* outline: auto; */
+  height: 100%;
+}
+
+.search-button {
+  height: 100%;
+}
+
+.price-sort {
+  /* outline: auto; */
+  width: 15%;
+  height: auto;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.category-sort {
+    /* outline: auto; */
+    width: 15%;
+    height: auto;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+  }

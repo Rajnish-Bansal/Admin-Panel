@@ -1,0 +1,141 @@
+.list-component {
+  outline: auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+  /* background-color: aqua; */
+}
+
+.filter-div {
+  outline: auto;
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-div {
+  /* outline: auto; */
+  height: 5%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.search-bar {
+  /* outline: auto; */
+  width: 60%;
+  height: 80%;
+}
+
+select {
+  /* outline: auto; */
+  height: 100%;
+}
+
+.search-button {
+  height: 100%;
+  background-color: #d49696;
+}
+
+.price-sort {
+  /* outline: auto; */
+  width: 90%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+  
+}
+
+.category-sort {
+  /* outline: auto; */
+  width: 90%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-div {
+  outline: auto;
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table {
+  /* outline: auto; */
+  width: 100%;
+  height: 94%;
+  display: flex;
+  align-items: center;
+  overflow: auto;
+  /* justify-content: space-between; */
+  flex-direction: column;
+}
+
+table {
+  /* outline: auto; */
+  width: 95%;
+  height: auto;
+  margin-top: 1%;
+  /* overflow: auto; */
+}
+
+th {
+  outline: auto;
+  font-size: larger;
+  font-weight:500;
+  background-color: #EDD8D9;
+}
+
+tbody {
+  outline: auto;
+  height: 50%;
+  width: 80%;
+}
+
+td {
+  outline: auto;
+  /* display: flex; */
+  text-align: center;
+  /* display: flex;
+  flex-direction: row; */
+}
+
+td>button{
+  background-color: #d49696;
+}
+
+.pagination-controls {
+  /* outline: auto; */
+  border: 1px solid gray;
+  width: 22%;
+  height: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-bottom: 1%; */
+  border-radius: 20px;
+  
+}
+
+.pagination-controls > button {
+  border-radius: 20px;
+  height: 100%;
+  width: 30%;
+  background-color: #d49696;
+}
+
+.pagination-controls>button :hover {
+  cursor: pointer;
+}
